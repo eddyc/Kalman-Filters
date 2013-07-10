@@ -7,8 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		441A67B6178D7B04006EE3F1 /* AudioObject.c in Sources */ = {isa = PBXBuildFile; fileRef = 441A67B4178D7B04006EE3F1 /* AudioObject.c */; };
+		441A67B7178D7B04006EE3F1 /* AudioObject.c in Sources */ = {isa = PBXBuildFile; fileRef = 441A67B4178D7B04006EE3F1 /* AudioObject.c */; };
 		441C12B417789C96003671DC /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 441C12B317789C96003671DC /* main.c */; };
 		441C12B617789C96003671DC /* Kalman_Filters.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 441C12B517789C96003671DC /* Kalman_Filters.1 */; };
+		441C12BE1778A03C003671DC /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 441C12BD1778A03C003671DC /* Accelerate.framework */; };
+		441C12C41778A205003671DC /* libhdf5.8.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 441C12C31778A205003671DC /* libhdf5.8.dylib */; };
+		44CA0234178C903600D3D66B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E85969178C135F0030003F /* AudioToolbox.framework */; };
+		44CA0235178C903900D3D66B /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E8596A178C135F0030003F /* AudioUnit.framework */; };
+		44CA0236178C903C00D3D66B /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E8596B178C135F0030003F /* CoreAudio.framework */; };
+		44CA0237178C905B00D3D66B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D143941780A2B0007C045C /* Foundation.framework */; };
+		44D1438E1780A2B0007C045C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D1438D1780A2B0007C045C /* SenTestingKit.framework */; };
+		44D143901780A2B0007C045C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D1438F1780A2B0007C045C /* Cocoa.framework */; };
+		44D1439A1780A2B0007C045C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44D143981780A2B0007C045C /* InfoPlist.strings */; };
+		44D1439D1780A2B1007C045C /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D1439C1780A2B1007C045C /* Tests.m */; };
+		44D143A21780A415007C045C /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 441C12BD1778A03C003671DC /* Accelerate.framework */; };
+		44D143A61780DE70007C045C /* libhdf5.8.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 441C12C31778A205003671DC /* libhdf5.8.dylib */; };
+		44E85963178C0AF00030003F /* Matrix.c in Sources */ = {isa = PBXBuildFile; fileRef = 44E85961178C0AF00030003F /* Matrix.c */; };
+		44E85964178C0AF00030003F /* Matrix.c in Sources */ = {isa = PBXBuildFile; fileRef = 44E85961178C0AF00030003F /* Matrix.c */; };
+		44E85967178C0DD70030003F /* AudioStream.c in Sources */ = {isa = PBXBuildFile; fileRef = 44E85965178C0DD70030003F /* AudioStream.c */; };
+		44E85968178C0DD80030003F /* AudioStream.c in Sources */ = {isa = PBXBuildFile; fileRef = 44E85965178C0DD70030003F /* AudioStream.c */; };
+		44E8596C178C135F0030003F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E85969178C135F0030003F /* AudioToolbox.framework */; };
+		44E8596D178C135F0030003F /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E8596A178C135F0030003F /* AudioUnit.framework */; };
+		44E8596E178C135F0030003F /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E8596B178C135F0030003F /* CoreAudio.framework */; };
+		44E85975178C1FA60030003F /* CsoundObject.c in Sources */ = {isa = PBXBuildFile; fileRef = 44E85973178C1FA60030003F /* CsoundObject.c */; };
+		44E85976178C1FA60030003F /* CsoundObject.c in Sources */ = {isa = PBXBuildFile; fileRef = 44E85973178C1FA60030003F /* CsoundObject.c */; };
+		44E85978178C20D90030003F /* CsoundLib64.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E85977178C20D90030003F /* CsoundLib64.framework */; };
+		44E85979178C20DA0030003F /* CsoundLib64.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E85977178C20D90030003F /* CsoundLib64.framework */; };
+		44E8597C178C221E0030003F /* CsoundLib64 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 44E8597B178C221E0030003F /* CsoundLib64 */; };
+		44E85980178C29B90030003F /* RingBuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 44E8597F178C29B90030003F /* RingBuffer.c */; };
+		44E85981178C29B90030003F /* RingBuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 44E8597F178C29B90030003F /* RingBuffer.c */; };
+		44E85984178C40600030003F /* ConvenienceFunctions.c in Sources */ = {isa = PBXBuildFile; fileRef = 44E85982178C40600030003F /* ConvenienceFunctions.c */; };
+		44E85985178C40600030003F /* ConvenienceFunctions.c in Sources */ = {isa = PBXBuildFile; fileRef = 44E85982178C40600030003F /* ConvenienceFunctions.c */; };
+		44FA316B178C6F20001BF1E2 /* KalmanFilter.c in Sources */ = {isa = PBXBuildFile; fileRef = 44FA3169178C6F20001BF1E2 /* KalmanFilter.c */; };
+		44FA316C178C7686001BF1E2 /* KalmanFilter.c in Sources */ = {isa = PBXBuildFile; fileRef = 44FA3169178C6F20001BF1E2 /* KalmanFilter.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -22,12 +54,56 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		44E8597A178C21FD0030003F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				44E8597C178C221E0030003F /* CsoundLib64 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		441A67B4178D7B04006EE3F1 /* AudioObject.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = AudioObject.c; path = "../../64bit Tools/Audio IO/AudioObject.c"; sourceTree = "<group>"; };
+		441A67B5178D7B04006EE3F1 /* AudioObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AudioObject.h; path = "../../64bit Tools/Audio IO/AudioObject.h"; sourceTree = "<group>"; };
 		441C12B017789C96003671DC /* Kalman Filters */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Kalman Filters"; sourceTree = BUILT_PRODUCTS_DIR; };
 		441C12B317789C96003671DC /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		441C12B517789C96003671DC /* Kalman_Filters.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Kalman_Filters.1; sourceTree = "<group>"; };
+		441C12BC17789FD3003671DC /* vowels.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vowels.h; sourceTree = "<group>"; };
+		441C12BD1778A03C003671DC /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		441C12C31778A205003671DC /* libhdf5.8.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libhdf5.8.dylib; path = ../../../../../usr/local/Cellar/hdf5/1.8.11/lib/libhdf5.8.dylib; sourceTree = "<group>"; };
+		44D1438C1780A2B0007C045C /* Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44D1438D1780A2B0007C045C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		44D1438F1780A2B0007C045C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		44D143921780A2B0007C045C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		44D143931780A2B0007C045C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		44D143941780A2B0007C045C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		44D143971780A2B0007C045C /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
+		44D143991780A2B0007C045C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		44D1439B1780A2B0007C045C /* Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tests.h; sourceTree = "<group>"; };
+		44D1439C1780A2B1007C045C /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
+		44D1439E1780A2B1007C045C /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		44E85961178C0AF00030003F /* Matrix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Matrix.c; path = "../../64bit Tools/Data Structures/Matrix.c"; sourceTree = "<group>"; };
+		44E85962178C0AF00030003F /* Matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Matrix.h; path = "../../64bit Tools/Data Structures/Matrix.h"; sourceTree = "<group>"; };
+		44E85965178C0DD70030003F /* AudioStream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = AudioStream.c; path = "../../64bit Tools/Audio IO/AudioStream.c"; sourceTree = "<group>"; };
+		44E85966178C0DD70030003F /* AudioStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AudioStream.h; path = "../../64bit Tools/Audio IO/AudioStream.h"; sourceTree = "<group>"; };
+		44E85969178C135F0030003F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		44E8596A178C135F0030003F /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		44E8596B178C135F0030003F /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		44E85973178C1FA60030003F /* CsoundObject.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CsoundObject.c; sourceTree = "<group>"; };
+		44E85974178C1FA60030003F /* CsoundObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CsoundObject.h; sourceTree = "<group>"; };
+		44E85977178C20D90030003F /* CsoundLib64.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CsoundLib64.framework; sourceTree = "<group>"; };
+		44E8597B178C221E0030003F /* CsoundLib64 */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = CsoundLib64; path = ../../../Library/Frameworks/CsoundLib64.framework/Versions/6.0/CsoundLib64; sourceTree = "<group>"; };
+		44E8597D178C22730030003F /* CsoundObject.csd */ = {isa = PBXFileReference; lastKnownFileType = text; path = CsoundObject.csd; sourceTree = "<group>"; };
+		44E8597E178C29B90030003F /* RingBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RingBuffer.h; path = "../../64bit Tools/Data Structures/RingBuffer.h"; sourceTree = "<group>"; };
+		44E8597F178C29B90030003F /* RingBuffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = RingBuffer.c; path = "../../64bit Tools/Data Structures/RingBuffer.c"; sourceTree = "<group>"; };
+		44E85982178C40600030003F /* ConvenienceFunctions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ConvenienceFunctions.c; path = "../../Tools/Custom Functions/ConvenienceFunctions.c"; sourceTree = "<group>"; };
+		44E85983178C40600030003F /* ConvenienceFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConvenienceFunctions.h; path = "../../Tools/Custom Functions/ConvenienceFunctions.h"; sourceTree = "<group>"; };
+		44FA3169178C6F20001BF1E2 /* KalmanFilter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = KalmanFilter.c; sourceTree = "<group>"; };
+		44FA316A178C6F20001BF1E2 /* KalmanFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KalmanFilter.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +111,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				441C12BE1778A03C003671DC /* Accelerate.framework in Frameworks */,
+				441C12C41778A205003671DC /* libhdf5.8.dylib in Frameworks */,
+				44CA0234178C903600D3D66B /* AudioToolbox.framework in Frameworks */,
+				44CA0236178C903C00D3D66B /* CoreAudio.framework in Frameworks */,
+				44CA0235178C903900D3D66B /* AudioUnit.framework in Frameworks */,
+				44CA0237178C905B00D3D66B /* Foundation.framework in Frameworks */,
+				44E85978178C20D90030003F /* CsoundLib64.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44D143881780A2B0007C045C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44E8596C178C135F0030003F /* AudioToolbox.framework in Frameworks */,
+				44E8596D178C135F0030003F /* AudioUnit.framework in Frameworks */,
+				44E8596E178C135F0030003F /* CoreAudio.framework in Frameworks */,
+				44D1438E1780A2B0007C045C /* SenTestingKit.framework in Frameworks */,
+				44D143901780A2B0007C045C /* Cocoa.framework in Frameworks */,
+				44D143A61780DE70007C045C /* libhdf5.8.dylib in Frameworks */,
+				44D143A21780A415007C045C /* Accelerate.framework in Frameworks */,
+				44E85979178C20DA0030003F /* CsoundLib64.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,6 +143,8 @@
 			isa = PBXGroup;
 			children = (
 				441C12B217789C96003671DC /* Kalman Filters */,
+				44D143951780A2B0007C045C /* Tests */,
+				441C12BF1778A047003671DC /* Frameworks */,
 				441C12B117789C96003671DC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				441C12B017789C96003671DC /* Kalman Filters */,
+				44D1438C1780A2B0007C045C /* Tests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,10 +161,73 @@
 		441C12B217789C96003671DC /* Kalman Filters */ = {
 			isa = PBXGroup;
 			children = (
+				44E85982178C40600030003F /* ConvenienceFunctions.c */,
+				44E85983178C40600030003F /* ConvenienceFunctions.h */,
+				441C12BC17789FD3003671DC /* vowels.h */,
 				441C12B317789C96003671DC /* main.c */,
 				441C12B517789C96003671DC /* Kalman_Filters.1 */,
+				44E85961178C0AF00030003F /* Matrix.c */,
+				44E85962178C0AF00030003F /* Matrix.h */,
+				44E8597E178C29B90030003F /* RingBuffer.h */,
+				44E8597F178C29B90030003F /* RingBuffer.c */,
+				44E85965178C0DD70030003F /* AudioStream.c */,
+				44E85966178C0DD70030003F /* AudioStream.h */,
+				441A67B4178D7B04006EE3F1 /* AudioObject.c */,
+				441A67B5178D7B04006EE3F1 /* AudioObject.h */,
+				44E85973178C1FA60030003F /* CsoundObject.c */,
+				44E85974178C1FA60030003F /* CsoundObject.h */,
+				44E8597D178C22730030003F /* CsoundObject.csd */,
+				44FA3169178C6F20001BF1E2 /* KalmanFilter.c */,
+				44FA316A178C6F20001BF1E2 /* KalmanFilter.h */,
 			);
 			path = "Kalman Filters";
+			sourceTree = "<group>";
+		};
+		441C12BF1778A047003671DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44E8597B178C221E0030003F /* CsoundLib64 */,
+				44E85977178C20D90030003F /* CsoundLib64.framework */,
+				44E85969178C135F0030003F /* AudioToolbox.framework */,
+				44E8596A178C135F0030003F /* AudioUnit.framework */,
+				44E8596B178C135F0030003F /* CoreAudio.framework */,
+				441C12C31778A205003671DC /* libhdf5.8.dylib */,
+				441C12BD1778A03C003671DC /* Accelerate.framework */,
+				44D1438D1780A2B0007C045C /* SenTestingKit.framework */,
+				44D1438F1780A2B0007C045C /* Cocoa.framework */,
+				44D143911780A2B0007C045C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44D143911780A2B0007C045C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D143921780A2B0007C045C /* AppKit.framework */,
+				44D143931780A2B0007C045C /* CoreData.framework */,
+				44D143941780A2B0007C045C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		44D143951780A2B0007C045C /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				44D1439B1780A2B0007C045C /* Tests.h */,
+				44D1439C1780A2B1007C045C /* Tests.m */,
+				44D143961780A2B0007C045C /* Supporting Files */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		44D143961780A2B0007C045C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44D143971780A2B0007C045C /* Tests-Info.plist */,
+				44D143981780A2B0007C045C /* InfoPlist.strings */,
+				44D1439E1780A2B1007C045C /* Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +249,25 @@
 			productName = "Kalman Filters";
 			productReference = 441C12B017789C96003671DC /* Kalman Filters */;
 			productType = "com.apple.product-type.tool";
+		};
+		44D1438B1780A2B0007C045C /* Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44D143A11780A2B1007C045C /* Build configuration list for PBXNativeTarget "Tests" */;
+			buildPhases = (
+				44D143871780A2B0007C045C /* Sources */,
+				44D143881780A2B0007C045C /* Frameworks */,
+				44D143891780A2B0007C045C /* Resources */,
+				44D1438A1780A2B0007C045C /* ShellScript */,
+				44E8597A178C21FD0030003F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tests;
+			productName = Tests;
+			productReference = 44D1438C1780A2B0007C045C /* Tests.octest */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -108,9 +291,37 @@
 			projectRoot = "";
 			targets = (
 				441C12AF17789C96003671DC /* Kalman Filters */,
+				44D1438B1780A2B0007C045C /* Tests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44D143891780A2B0007C045C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44D1439A1780A2B0007C045C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44D1438A1780A2B0007C045C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		441C12AC17789C96003671DC /* Sources */ = {
@@ -118,10 +329,43 @@
 			buildActionMask = 2147483647;
 			files = (
 				441C12B417789C96003671DC /* main.c in Sources */,
+				44E85963178C0AF00030003F /* Matrix.c in Sources */,
+				44E85967178C0DD70030003F /* AudioStream.c in Sources */,
+				44E85975178C1FA60030003F /* CsoundObject.c in Sources */,
+				44E85980178C29B90030003F /* RingBuffer.c in Sources */,
+				44E85984178C40600030003F /* ConvenienceFunctions.c in Sources */,
+				44FA316B178C6F20001BF1E2 /* KalmanFilter.c in Sources */,
+				441A67B6178D7B04006EE3F1 /* AudioObject.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44D143871780A2B0007C045C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44D1439D1780A2B1007C045C /* Tests.m in Sources */,
+				44E85964178C0AF00030003F /* Matrix.c in Sources */,
+				44E85968178C0DD80030003F /* AudioStream.c in Sources */,
+				44E85976178C1FA60030003F /* CsoundObject.c in Sources */,
+				44FA316C178C7686001BF1E2 /* KalmanFilter.c in Sources */,
+				44E85981178C29B90030003F /* RingBuffer.c in Sources */,
+				44E85985178C40600030003F /* ConvenienceFunctions.c in Sources */,
+				441A67B7178D7B04006EE3F1 /* AudioObject.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		44D143981780A2B0007C045C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44D143991780A2B0007C045C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		441C12B717789C96003671DC /* Debug */ = {
@@ -184,6 +428,17 @@
 		441C12BA17789C96003671DC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_OPTIMIZATION_LEVEL = s;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/hdf5/1.8.11/lib,
+				);
+				LLVM_LTO = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -191,7 +446,63 @@
 		441C12BB17789C96003671DC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/hdf5/1.8.11/lib,
+				);
+				LLVM_LTO = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		44D1439F1780A2B1007C045C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_OPTIMIZATION_LEVEL = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/hdf5/1.8.11/lib,
+				);
+				LLVM_LTO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		44D143A01780A2B1007C045C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_OPTIMIZATION_LEVEL = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/hdf5/1.8.11/lib,
+				);
+				LLVM_LTO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
@@ -214,6 +525,16 @@
 				441C12BB17789C96003671DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44D143A11780A2B1007C045C /* Build configuration list for PBXNativeTarget "Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44D1439F1780A2B1007C045C /* Debug */,
+				44D143A01780A2B1007C045C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
